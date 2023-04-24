@@ -2,11 +2,11 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: A c script that prints a line to the stderr
+ * Description: C program to printing a quote
  * Return: Always 1 (Success)
  */
 int main(void)
 {
-	fputs "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout;
+	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
