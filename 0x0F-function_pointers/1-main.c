@@ -19,7 +19,8 @@ void print_elem(int elem)
  */
 void print_elem_hex(int elem)
 {
-	printf("%d\n", }
+	printf("%d\n",elem);
+}
 /**
  * main - Entry point
  *
@@ -31,5 +32,5 @@ int main(void)
 
 	array_iterator(array, 5, &print_elem);
 	array_iterator(array, 5, &print_elem_hex);
-return (0);
+	return (0);
 }
